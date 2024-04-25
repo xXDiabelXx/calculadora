@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calculadora
+namespace Calculadora.Clases
 {
-    internal class division
+    internal class ClsDivision
     {
+        public double Dividir(double N1, double N2)
+        {
+            double D;
+            D = N1 / N2;
+            return D;
+        }
     }
 }

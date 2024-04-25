@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace calculadora
+namespace Calculadora.Clases
 {
-    internal class resta
+    internal class ClsResta
     {
+        public double Restar(double N1, double N2)
+        {
+            double R;
+            R = N1 - N2;
+            return R;
+        }
     }
 }
